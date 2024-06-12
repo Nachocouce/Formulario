@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Vinculacion al CSS -->
+    <link rel="stylesheet" href="estilos.css">
+
+    <title>Formulario</title>
+
+</head>
+
+<body>
+    <h1>Formulario</h1>
+
+    <form>
+
+        <!-- Ingreso de NOMBRE COMPLETO -->
+        <div>    
+            <label for="NombreCompleto"> Ingrese nombre completo</label>
+            <input type="text" name="NombreCompleto" size="20" id="NombreCompleto">
+        </div>
+
+        <!-- Ingreso de CORREO ELECTRONICO -->
+        <div>
+            <label for="correoElectronico">Ingrese correo electronico</label>
+            <input type="email" name="correoElectronico" size="30" id="correoElectronico" required>
+            
+        </div>
+
+        <!-- Ingreso de EDAD -->
+        <div>
+            <label for="edad">Ingrese edad</label>
+            <input type="number" name="edad" size="30" id="edad" required>
+        </div>
+
+        <!-- Ingreso de COMENTARIO  -->
+        <div>
+            <label for="comentarios">Ingrese un comentario</label>
+            <textarea name="comentarios" id="comentarios"></textarea>
+
+        </div>
+        <!-- Boton de envio -->
+        <button type="submit" id="botonEnviar">Enviar</button>
+    
+    </form>
+</body>
+
+
+</html>
