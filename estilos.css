@@ -1,0 +1,42 @@
+#NombreCompleto{
+    color: black;
+    border: 1px solid gray;
+    
+}
+#correoElectronico{
+    color: black;
+    background-color: yellow;
+    border: 1px solid blue;
+
+}
+
+#edad{
+    color: black;
+    background-color: white;
+    border: 2px solid red;
+
+}
+
+#comentarios{
+    color: black;
+    background-color: yellow;
+    border: 1px solid gray;
+
+}
+
+#botonEnviar{
+    background-color: blue;
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: 1px solid black;   
+}
+
+form{
+    margin: 20px;
+    padding: 20px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+
